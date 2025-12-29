@@ -960,6 +960,68 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 50.8 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0827eefc-8371-4a37-8a33-45d1a6e4390f")
+	)
+	(junction
+		(at 40.64 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75ca7100-40fc-460d-bd03-87a4686bf230")
+	)
+	(wire
+		(pts
+			(xy 50.8 31.75) (xy 52.07 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2872fc1c-7b26-4f3f-9e77-d80e4943b056")
+	)
+	(wire
+		(pts
+			(xy 50.8 31.75) (xy 50.8 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53a1f856-bec7-42ac-9632-f678fb43cea5")
+	)
+	(wire
+		(pts
+			(xy 40.64 31.75) (xy 50.8 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7e2d679-b894-411f-b14b-96757abebabf")
+	)
+	(wire
+		(pts
+			(xy 40.64 31.75) (xy 40.64 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfde8b16-c038-4e0b-ac59-b1501f71aa40")
+	)
+	(wire
+		(pts
+			(xy 33.02 31.75) (xy 40.64 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0515746-56ef-46a9-9a23-b41325bf6c8d")
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 204.47 44.45 90)
@@ -978,7 +1040,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "68R"
 			(at 204.47 40.64 90)
 			(effects
 				(font
@@ -1046,7 +1108,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "220u"
 			(at 56.769 26.67 90)
 			(effects
 				(font
@@ -1149,6 +1211,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "C:\\Users\\Brian\\Documents\\circuit components\\NE5534.301"
+			(at 100.33 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "NE5534"
+			(at 100.33 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 100.33 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5 6=6 7=7"
+			(at 100.33 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "356d9b9d-f9c3-4cb9-8c03-10f858f33191")
 		)
@@ -1200,7 +1298,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "470n"
 			(at 106.68 129.54 90)
 			(effects
 				(font
@@ -1269,7 +1367,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "82k"
 			(at 125.73 148.5899 0)
 			(effects
 				(font
@@ -1338,7 +1436,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k5"
 			(at 148.59 44.45 90)
 			(effects
 				(font
@@ -1407,7 +1505,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4p7"
 			(at 119.38 25.3999 0)
 			(effects
 				(font
@@ -1477,7 +1575,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "12k"
 			(at 73.66 148.5899 0)
 			(effects
 				(font
@@ -1547,7 +1645,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "47k"
 			(at 96.52 161.2899 0)
 			(effects
 				(font
@@ -1616,7 +1714,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "470R"
 			(at 194.31 40.64 90)
 			(effects
 				(font
@@ -1684,7 +1782,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10n"
 			(at 143.51 73.66 90)
 			(effects
 				(font
@@ -1753,7 +1851,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200R"
 			(at 96.52 146.0499 0)
 			(effects
 				(font
@@ -1857,6 +1955,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" "SUBCKT"
+			(at 148.59 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "C:\\Users\\Brian\\Documents\\circuit components\\NE5534.301"
+			(at 148.59 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "NE5534"
+			(at 148.59 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5 6=6 7=7"
+			(at 148.59 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "356d9b9d-f9c3-4cb9-8c03-10f858f33191")
 		)
@@ -1908,7 +2042,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "470n"
 			(at 81.28 129.54 90)
 			(effects
 				(font
@@ -1976,7 +2110,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10n"
 			(at 143.51 55.88 90)
 			(effects
 				(font
@@ -2045,7 +2179,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4n7"
 			(at 213.36 55.8799 0)
 			(effects
 				(font
@@ -2115,7 +2249,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "68k"
 			(at 73.66 44.4499 0)
 			(effects
 				(font
@@ -2184,7 +2318,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4n7"
 			(at 115.57 68.58 90)
 			(effects
 				(font
@@ -2253,7 +2387,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "22k"
 			(at 218.44 156.2099 0)
 			(effects
 				(font
@@ -2322,7 +2456,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "47u"
 			(at 204.089 130.81 90)
 			(effects
 				(font
@@ -2390,7 +2524,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4n7"
 			(at 115.57 55.88 90)
 			(effects
 				(font
@@ -2441,6 +2575,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDS")
+		(at 50.8 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82630e9c-c320-4f96-a0c8-e5410f41ca44")
+		(property "Reference" "#PWR03"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDS"
+			(at 50.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
+			(at 50.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6f07d42-f93d-44c4-8fec-d4d9fd53aca5")
+		)
+		(instances
+			(project "phono-preamp-v1"
+				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 106.68 102.87 0)
 		(unit 1)
@@ -2459,7 +2659,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "220u"
 			(at 110.49 103.2509 0)
 			(effects
 				(font
@@ -2512,7 +2712,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 43.18 44.45 0)
+		(at 40.64 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2521,7 +2721,7 @@
 		(fields_autoplaced yes)
 		(uuid "947e3272-4345-43ec-bfa8-8107803a78fd")
 		(property "Reference" "R1"
-			(at 45.72 43.1799 0)
+			(at 43.18 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2529,8 +2729,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 45.72 45.7199 0)
+		(property "Value" "150k"
+			(at 43.18 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2539,7 +2739,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 41.402 44.45 90)
+			(at 38.862 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2548,7 +2748,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 44.45 0)
+			(at 40.64 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2557,7 +2757,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 43.18 44.45 0)
+			(at 40.64 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2598,7 +2798,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "5k1"
 			(at 110.49 43.18 90)
 			(effects
 				(font
@@ -2666,7 +2866,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "62k"
 			(at 137.16 43.18 90)
 			(effects
 				(font
@@ -2802,7 +3002,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10n"
 			(at 143.51 64.77 90)
 			(effects
 				(font
@@ -2871,7 +3071,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "220R"
 			(at 109.22 92.7099 0)
 			(effects
 				(font
@@ -2940,7 +3140,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10n"
 			(at 143.51 80.01 90)
 			(effects
 				(font
@@ -3008,7 +3208,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "120R"
 			(at 121.92 43.18 90)
 			(effects
 				(font
@@ -3076,7 +3276,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "220p"
 			(at 115.57 74.93 90)
 			(effects
 				(font
@@ -3214,7 +3414,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4n7"
 			(at 115.57 62.23 90)
 			(effects
 				(font
@@ -3265,8 +3465,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDS")
+		(at 40.64 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d55d447d-1bac-4691-b242-44eed34e969a")
+		(property "Reference" "#PWR02"
+			(at 40.64 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDS"
+			(at 40.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
+			(at 40.64 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0cd5504c-fc94-49db-9c64-758ab4bd0d6e")
+		)
+		(instances
+			(project "phono-preamp-v1"
+				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 53.34 44.45 0)
+		(at 50.8 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3275,7 +3541,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc135184-e948-4409-8e4e-402f66261eb1")
 		(property "Reference" "C1"
-			(at 57.15 43.1799 0)
+			(at 54.61 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3283,8 +3549,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 57.15 45.7199 0)
+		(property "Value" "100p"
+			(at 54.61 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3293,7 +3559,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 54.3052 48.26 0)
+			(at 51.7652 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3302,7 +3568,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 44.45 0)
+			(at 50.8 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3311,7 +3577,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 53.34 44.45 0)
+			(at 50.8 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3418,7 +3684,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "470n"
 			(at 62.23 129.54 90)
 			(effects
 				(font
@@ -3486,7 +3752,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100R"
 			(at 232.41 132.08 90)
 			(effects
 				(font
@@ -3554,7 +3820,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10n"
 			(at 144.78 92.71 90)
 			(effects
 				(font
