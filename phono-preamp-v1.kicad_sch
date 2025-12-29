@@ -434,6 +434,249 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Screw_Terminal_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 2.8702) (xy 0.3302 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 3.048) (xy 0.508 2.2098)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1287,6 +1530,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GNDPWR"
 			(power)
 			(pin_numbers
@@ -1796,6 +2140,12 @@
 		(uuid "780b21ab-e687-44d7-b23b-70101fc39dce")
 	)
 	(junction
+		(at 38.1 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8965defc-5311-474e-9754-52d2e8814e0d")
+	)
+	(junction
 		(at 163.83 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1931,7 +2281,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 168.91) (xy 43.18 168.91)
+			(xy 33.02 168.91) (xy 38.1 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2751,6 +3101,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 168.91) (xy 43.18 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4942c6d-4398-4188-8ae6-e8f58ee48111")
+	)
+	(wire
+		(pts
 			(xy 175.26 92.71) (xy 175.26 99.06)
 		)
 		(stroke
@@ -2779,6 +3139,108 @@
 		)
 		(uuid "fbd5fe47-d72c-4f59-a780-f18a827fb98e")
 	)
+	(label "in"
+		(at 52.07 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66818aaa-bb70-4518-a18b-2b21e6faa6fe")
+	)
+	(label "in"
+		(at 34.29 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a99b3abf-648a-4220-b170-3d7ca5afa9cc")
+	)
+	(label "out"
+		(at 227.33 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff0bf656-6ba5-48e0-844f-06793b204aa2")
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 44.45 118.11 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03356b00-a1a2-4b45-85ea-5cb14ea447b7")
+		(property "Reference" "J2"
+			(at 44.45 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x03"
+			(at 44.45 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-3_P5.08mm"
+			(at 44.45 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 44.45 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "58e071e3-82e0-4071-aecc-f1a4bc4a7b73")
+		)
+		(pin "3"
+			(uuid "ad895ba1-b24b-484e-8a62-87b4ee785ca9")
+		)
+		(pin "1"
+			(uuid "5b73b751-0fe9-4123-9f33-f70f022babaa")
+		)
+		(instances
+			(project ""
+				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 140.97 85.09 90)
@@ -2789,7 +3251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "080c6cce-dd25-4c6d-954a-cf8b8fb8060e")
-		(property "Reference" "R13"
+		(property "Reference" "R10"
 			(at 140.97 78.74 90)
 			(effects
 				(font
@@ -2841,7 +3303,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "R13")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -2924,7 +3386,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a16e3e7-0856-4abe-8e83-6905f8875371")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR018"
 			(at 104.14 88.9 0)
 			(effects
 				(font
@@ -2974,7 +3436,7 @@
 		(instances
 			(project "phono-preamp-v1"
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "#PWR016")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -3112,7 +3574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "116a4dc8-40c1-43d5-963f-67a3234471ac")
-		(property "Reference" "C6"
+		(property "Reference" "C19"
 			(at 167.64 77.47 90)
 			(effects
 				(font
@@ -3164,7 +3626,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "C6")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -3180,7 +3642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "120d1813-b0bd-41a0-9de6-83c335657a9f")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR025"
 			(at 198.12 111.76 0)
 			(effects
 				(font
@@ -3230,7 +3692,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "#PWR010")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3246,7 +3708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1313b9b8-d48d-4559-8152-fb6455f979c2")
-		(property "Reference" "R9"
+		(property "Reference" "R14"
 			(at 177.8 87.6299 0)
 			(effects
 				(font
@@ -3300,7 +3762,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "R9")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -3315,7 +3777,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ebadf04-4b22-4584-b0ad-d634bba0fb7a")
-		(property "Reference" "C19"
+		(property "Reference" "C21"
 			(at 189.992 102.616 90)
 			(effects
 				(font
@@ -3331,7 +3793,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 196.85 103.1748 0)
 			(effects
 				(font
@@ -3367,7 +3829,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "C19")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -3383,7 +3845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "236910c5-e79f-4641-8554-b46e48a0a5ca")
-		(property "Reference" "R11"
+		(property "Reference" "R8"
 			(at 125.73 97.79 90)
 			(effects
 				(font
@@ -3435,7 +3897,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "R11")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -3445,13 +3907,13 @@
 		(lib_id "Device:C")
 		(at 121.92 76.2 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27d58f79-221a-49e3-bc21-ea0a1580243f")
-		(property "Reference" "C7"
+		(property "Reference" "C10"
 			(at 125.73 74.9299 0)
 			(effects
 				(font
@@ -3505,7 +3967,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "C7")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -3521,7 +3983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29f33214-9257-44e1-95aa-ec787c8870b9")
-		(property "Reference" "R3"
+		(property "Reference" "R11"
 			(at 158.75 91.4399 0)
 			(effects
 				(font
@@ -3575,7 +4037,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "R3")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3591,7 +4053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e510f1b-abe6-4dbc-9b31-4c5766457252")
-		(property "Reference" "R5"
+		(property "Reference" "R13"
 			(at 166.37 99.0599 0)
 			(effects
 				(font
@@ -3645,7 +4107,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "R5")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -3661,7 +4123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30825c4a-4cc7-4fe9-b842-02ecc676bc10")
-		(property "Reference" "R12"
+		(property "Reference" "R9"
 			(at 133.35 78.74 90)
 			(effects
 				(font
@@ -3713,7 +4175,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "R12")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -3744,7 +4206,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 196.85 72.6948 0)
 			(effects
 				(font
@@ -3795,7 +4257,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "375df717-fa89-4745-8273-b3400fcba71b")
-		(property "Reference" "C22"
+		(property "Reference" "C3"
 			(at 91.44 86.36 90)
 			(effects
 				(font
@@ -3811,7 +4273,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 97.79 91.7448 0)
 			(effects
 				(font
@@ -3847,7 +4309,7 @@
 		(instances
 			(project "phono-preamp-v1"
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "C22")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3862,7 +4324,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a427b3b-aa11-4ae5-8e52-803e89e4bbf9")
-		(property "Reference" "C14"
+		(property "Reference" "C13"
 			(at 118.618 122.174 90)
 			(effects
 				(font
@@ -3914,7 +4376,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "C14")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -3930,7 +4392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a6427d0-8f6c-4a97-bf39-c75d76920704")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR017"
 			(at 104.14 81.28 0)
 			(effects
 				(font
@@ -3980,7 +4442,7 @@
 		(instances
 			(project "phono-preamp-v1"
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "#PWR013")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -3996,7 +4458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c65b3b2-a6e8-4af5-9ba1-9098cf972ca4")
-		(property "Reference" "R4"
+		(property "Reference" "R12"
 			(at 166.37 91.4399 0)
 			(effects
 				(font
@@ -4050,7 +4512,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "R4")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -4066,7 +4528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "401d7206-dd31-4a01-bc29-c74a11d00ffa")
-		(property "Reference" "V2"
+		(property "Reference" "V3"
 			(at 46.99 173.8601 0)
 			(effects
 				(font
@@ -4148,7 +4610,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "V2")
+					(reference "V3")
 					(unit 1)
 				)
 			)
@@ -4164,7 +4626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "420dcd09-0d3c-4a46-9231-9698eaa3b526")
-		(property "Reference" "R16"
+		(property "Reference" "R1"
 			(at 55.88 163.83 90)
 			(effects
 				(font
@@ -4180,7 +4642,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 55.88 171.958 90)
 			(effects
 				(font
@@ -4216,7 +4678,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "R16")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -4345,6 +4807,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+15V")
+		(at 49.53 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b50d932-bcdc-4657-b60c-7815e0578810")
+		(property "Reference" "#PWR07"
+			(at 45.72 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+15V"
+			(at 53.34 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 49.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27b92088-1295-4123-9854-5618d3369141")
+		)
+		(instances
+			(project "phono-preamp-v1"
+				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 96.52 77.47 0)
 		(unit 1)
@@ -4353,7 +4882,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c3f27db-6533-46e6-b92f-f5b65f21aa4a")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 96.52 82.55 0)
 			(effects
 				(font
@@ -4403,7 +4932,7 @@
 		(instances
 			(project "phono-preamp-v1"
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4419,7 +4948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "568b7781-694f-4947-a94d-bc6e1e2f2319")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR04"
 			(at 43.18 162.56 0)
 			(effects
 				(font
@@ -4469,7 +4998,7 @@
 		(instances
 			(project "phono-preamp-v1"
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "#PWR021")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4485,7 +5014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57adb283-6770-41a6-8c14-8ea06dc720c9")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR019"
 			(at 144.78 105.41 0)
 			(effects
 				(font
@@ -4535,7 +5064,7 @@
 		(instances
 			(project "phono-preamp-v1"
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "#PWR06")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4551,7 +5080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5dbf5bee-23c9-47bd-9d9d-47fc603526ea")
-		(property "Reference" "C4"
+		(property "Reference" "C18"
 			(at 160.02 77.47 90)
 			(effects
 				(font
@@ -4603,7 +5132,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "C4")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -4618,7 +5147,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5eafc2a8-4a99-4192-8d90-055b65937e46")
-		(property "Reference" "C12"
+		(property "Reference" "C11"
 			(at 118.618 109.728 90)
 			(effects
 				(font
@@ -4670,7 +5199,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "C12")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -4685,7 +5214,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "605d3236-e250-464d-af9f-1eaaa2d6fc84")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR01"
 			(at 33.02 175.26 0)
 			(effects
 				(font
@@ -4735,7 +5264,7 @@
 		(instances
 			(project "phono-preamp-v1"
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "#PWR020")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4751,7 +5280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61bc1b61-96eb-44c4-ad96-b0ee39ef9ac2")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR05"
 			(at 43.18 176.53 0)
 			(effects
 				(font
@@ -4801,7 +5330,7 @@
 		(instances
 			(project "phono-preamp-v1"
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "#PWR022")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4817,7 +5346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66bbbd5a-5194-4185-a7d9-91ec7b9ad945")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR023"
 			(at 189.23 101.6 0)
 			(effects
 				(font
@@ -4867,7 +5396,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "#PWR09")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -4883,7 +5412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67d5d757-c37c-4766-9a4f-40706b2d3974")
-		(property "Reference" "C18"
+		(property "Reference" "C16"
 			(at 148.59 91.4399 0)
 			(effects
 				(font
@@ -4937,7 +5466,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "C18")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -4953,7 +5482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f8c2f49-ddd5-4246-b2e1-f7332a5a0bee")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR024"
 			(at 196.85 78.74 0)
 			(effects
 				(font
@@ -5003,7 +5532,7 @@
 		(instances
 			(project "phono-preamp-v1"
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "#PWR011")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -5019,7 +5548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71d6253f-a2d0-43b4-b1ab-da493c7d8b45")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR027"
 			(at 231.14 105.41 0)
 			(effects
 				(font
@@ -5069,7 +5598,7 @@
 		(instances
 			(project "phono-preamp-v1"
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "#PWR018")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -5085,7 +5614,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73b545f3-0a33-4d42-816a-d460a4a23807")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 82.55 93.9799 0)
 			(effects
 				(font
@@ -5139,7 +5668,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5154,7 +5683,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75c038e0-e886-4eec-8c6f-110dd2e0ad77")
-		(property "Reference" "C10"
+		(property "Reference" "C8"
 			(at 103.124 120.904 90)
 			(effects
 				(font
@@ -5206,7 +5735,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "C10")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -5222,7 +5751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79bf389c-46d9-4407-82c5-d5a003ec78c7")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 219.71 93.9799 0)
 			(effects
 				(font
@@ -5276,7 +5805,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "R14")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -5359,7 +5888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7aad95d3-ddcd-44ae-8eff-4b6fa8e90e32")
-		(property "Reference" "C17"
+		(property "Reference" "C22"
 			(at 214.249 80.01 90)
 			(effects
 				(font
@@ -5411,7 +5940,7 @@
 		(instances
 			(project "phono-preamp-v1"
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "C17")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -5426,7 +5955,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7eacb4a2-dee3-46df-86db-53a361077442")
-		(property "Reference" "C8"
+		(property "Reference" "C6"
 			(at 103.124 108.458 90)
 			(effects
 				(font
@@ -5478,7 +6007,72 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "C8")
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 49.53 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80a8b568-c6aa-4c32-842e-706dcf50e5fb")
+		(property "Reference" "#PWR08"
+			(at 54.61 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 56.388 118.364 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 49.53 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e704a7d-8911-40ad-b091-f3573f3e9fcd")
+		)
+		(instances
+			(project "phono-preamp-v1"
+				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5494,7 +6088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82630e9c-c320-4f96-a0c8-e5410f41ca44")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR012"
 			(at 67.31 105.41 0)
 			(effects
 				(font
@@ -5544,7 +6138,7 @@
 		(instances
 			(project "phono-preamp-v1"
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "#PWR03")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5560,7 +6154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82893392-da2c-4ac3-a7db-cebac50d6a4d")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 102.87 138.8109 0)
 			(effects
 				(font
@@ -5614,7 +6208,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -5629,7 +6223,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f3777ee-4719-41f6-b6c4-2c306a7519bd")
-		(property "Reference" "C21"
+		(property "Reference" "C5"
 			(at 97.79 71.12 90)
 			(effects
 				(font
@@ -5645,7 +6239,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 104.14 76.5048 0)
 			(effects
 				(font
@@ -5681,7 +6275,7 @@
 		(instances
 			(project "phono-preamp-v1"
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "C21")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -5764,7 +6358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "947e3272-4345-43ec-bfa8-8107803a78fd")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 59.69 93.9799 0)
 			(effects
 				(font
@@ -5818,7 +6412,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5901,7 +6495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "961f989b-eedc-4af7-a087-7292d06567bb")
-		(property "Reference" "R7"
+		(property "Reference" "R5"
 			(at 102.87 97.79 90)
 			(effects
 				(font
@@ -5953,7 +6547,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "R7")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5969,7 +6563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97e9e607-3e26-4fca-af32-2c09789c5024")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR021"
 			(at 175.26 105.41 0)
 			(effects
 				(font
@@ -6019,7 +6613,7 @@
 		(instances
 			(project "phono-preamp-v1"
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "#PWR08")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -6035,7 +6629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ac61a25-b938-416a-a00e-0dc216ff71b0")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR020"
 			(at 156.21 105.41 0)
 			(effects
 				(font
@@ -6085,7 +6679,7 @@
 		(instances
 			(project "phono-preamp-v1"
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "#PWR07")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -6100,7 +6694,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e669d94-7715-4e55-a5dc-84f62987b2a5")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR014"
 			(at 90.17 104.14 0)
 			(effects
 				(font
@@ -6150,7 +6744,73 @@
 		(instances
 			(project "phono-preamp-v1"
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "#PWR015")
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ef4c6ce-c91c-478a-acd7-2a1df3febfde")
+		(property "Reference" "#PWR03"
+			(at 38.1 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 38.1 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e21bd4ab-ccd1-4ad9-97e0-637c4e1db3c0")
+		)
+		(instances
+			(project ""
+				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6166,7 +6826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2db77f1-b7d1-4e64-9096-ee43b5791601")
-		(property "Reference" "R10"
+		(property "Reference" "R7"
 			(at 118.11 97.79 90)
 			(effects
 				(font
@@ -6218,7 +6878,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "R10")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -6250,7 +6910,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal"
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 			(at 44.45 82.55 0)
 			(effects
 				(font
@@ -6301,7 +6961,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a503586e-1d90-4528-a636-b2d9b444ed37")
-		(property "Reference" "C13"
+		(property "Reference" "C12"
 			(at 118.364 116.332 90)
 			(effects
 				(font
@@ -6353,7 +7013,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "C13")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -6369,7 +7029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a74b2a05-e234-406f-be34-e5bd2ad19518")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR016"
 			(at 99.06 151.13 0)
 			(effects
 				(font
@@ -6419,7 +7079,7 @@
 		(instances
 			(project "phono-preamp-v1"
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "#PWR05")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6435,7 +7095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9c25f06-4976-4805-b60a-2a2eeb288214")
-		(property "Reference" "R6"
+		(property "Reference" "R4"
 			(at 101.6 132.0799 0)
 			(effects
 				(font
@@ -6489,7 +7149,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "R6")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6504,7 +7164,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9dd4023-7cdc-4c08-8f9e-acee317fc9cb")
-		(property "Reference" "C15"
+		(property "Reference" "C14"
 			(at 118.364 128.524 90)
 			(effects
 				(font
@@ -6556,7 +7216,113 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "C15")
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:VDC")
+		(at 34.29 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa79216b-6774-48ed-97c1-2667d50fbc5e")
+		(property "Reference" "V1"
+			(at 38.1 134.4901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 38.1 137.0301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+			(at 34.29 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage source, DC"
+			(at 34.29 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 34.29 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 34.29 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 34.29 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "ac=1 ph=0"
+			(at 34.29 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2fdd7eb1-350b-42d4-b4d9-a13ef2561647")
+		)
+		(pin "1"
+			(uuid "1519a1da-2dd8-4e05-81b9-4a37df9a0585")
+		)
+		(instances
+			(project "phono-preamp-v1"
+				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
+					(reference "V1")
 					(unit 1)
 				)
 			)
@@ -6638,7 +7404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b400e6df-3eab-4556-95f8-7588b837d0d7")
-		(property "Reference" "R8"
+		(property "Reference" "R6"
 			(at 110.49 97.79 90)
 			(effects
 				(font
@@ -6690,7 +7456,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "R8")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6705,7 +7471,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b83cd6a5-5658-4670-83ab-fa7fec6e832d")
-		(property "Reference" "C11"
+		(property "Reference" "C9"
 			(at 102.87 126.746 90)
 			(effects
 				(font
@@ -6757,7 +7523,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "C11")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -6773,7 +7539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9b0b9a0-29ae-42fa-959f-444cf57a5cbe")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 240.03 87.6299 0)
 			(effects
 				(font
@@ -6791,7 +7557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal"
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 			(at 237.49 87.63 0)
 			(effects
 				(font
@@ -6827,7 +7593,140 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "J2")
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDS")
+		(at 34.29 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc34e472-cfd2-4d21-bc22-05fc6b0a167c")
+		(property "Reference" "#PWR02"
+			(at 34.29 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDS"
+			(at 34.29 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
+			(at 34.29 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1dcafc13-9529-42db-915d-c421d42ad9e5")
+		)
+		(instances
+			(project "phono-preamp-v1"
+				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-15V")
+		(at 49.53 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf51dbf7-d577-4913-9ce1-bdb8bc050897")
+		(property "Reference" "#PWR09"
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-15V"
+			(at 53.34 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-15V\""
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9315d49-677c-42ec-8c91-320fcf650cd7")
+		)
+		(instances
+			(project "phono-preamp-v1"
+				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6842,7 +7741,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cceb5efb-f792-4105-bee7-dae511d9db8f")
-		(property "Reference" "C9"
+		(property "Reference" "C7"
 			(at 103.124 114.808 90)
 			(effects
 				(font
@@ -6894,7 +7793,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "C9")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6910,7 +7809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d55d447d-1bac-4691-b242-44eed34e969a")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR010"
 			(at 57.15 105.41 0)
 			(effects
 				(font
@@ -6960,7 +7859,7 @@
 		(instances
 			(project "phono-preamp-v1"
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "#PWR02")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7046,7 +7945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcd60731-822d-4443-841d-7fc4adb4d694")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR026"
 			(at 217.17 105.41 0)
 			(effects
 				(font
@@ -7096,7 +7995,7 @@
 		(instances
 			(project "phono-preamp-v1"
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "#PWR017")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -7112,7 +8011,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df0f4a43-bf20-4b0d-9b75-59d84d4d1601")
-		(property "Reference" "V1"
+		(property "Reference" "V2"
 			(at 46.99 162.4301 0)
 			(effects
 				(font
@@ -7194,7 +8093,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "V1")
+					(reference "V2")
 					(unit 1)
 				)
 			)
@@ -7210,7 +8109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2436982-801d-4960-a15c-b2ced8182d53")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR011"
 			(at 60.96 177.8 0)
 			(effects
 				(font
@@ -7260,7 +8159,7 @@
 		(instances
 			(project "phono-preamp-v1"
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "#PWR019")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7276,7 +8175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e83df8c2-2c68-44d9-97b1-02711d480854")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR06"
 			(at 49.53 91.44 0)
 			(effects
 				(font
@@ -7326,7 +8225,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "#PWR01")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7342,7 +8241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eab7de9f-3364-4b66-b9d3-7848766ef8c7")
-		(property "Reference" "C3"
+		(property "Reference" "C17"
 			(at 152.4 77.47 90)
 			(effects
 				(font
@@ -7394,7 +8293,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "C3")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -7410,7 +8309,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0a31776-5f6c-4e94-9ac6-4493fbd96599")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR013"
 			(at 80.01 105.41 0)
 			(effects
 				(font
@@ -7460,7 +8359,7 @@
 		(instances
 			(project "phono-preamp-v1"
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "#PWR04")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7476,7 +8375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4247788-53d6-470c-8ed9-6609df0fda28")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 220.98 81.28 90)
 			(effects
 				(font
@@ -7528,7 +8427,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -7544,7 +8443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4d6500a-c183-401f-9bcb-5c9925fcc3f1")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR022"
 			(at 189.23 77.47 0)
 			(effects
 				(font
@@ -7594,7 +8493,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "#PWR012")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7609,7 +8508,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f578922e-4d78-47b5-a66a-8e391abd0e0d")
-		(property "Reference" "C16"
+		(property "Reference" "C15"
 			(at 118.364 135.128 90)
 			(effects
 				(font
@@ -7661,7 +8560,7 @@
 		(instances
 			(project ""
 				(path "/da5ca0a3-9954-4fa9-8a68-4b50c70ac841"
-					(reference "C16")
+					(reference "C15")
 					(unit 1)
 				)
 			)
